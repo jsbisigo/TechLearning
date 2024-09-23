@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    table {
+        width: 80%;
+        max-width: 10000px;
+        border-collapse: collapse; 
+        margin: 20px auto;
+        border-radius: 8px;
+        overflow: hidden; 
+}
+
+    table, th, td {
+        border: 1px solid #2e4d53; 
+    }
+
+    th, td {
+        padding: 12px; 
+        text-align: left; 
+    }
+   
+    th {
+        font-weight: bold;
+        background-color: #d7dfe8; 
+        color: #2e4d53;  
+    }
+
+    td {
+        background-color: #eaf5ff;
+        color: #2e4d53; 
+    }
+    .prog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .prog a.botaoprog{
+        margin-top: -4%;
+        padding: 10px 20px;
+        font-size: 15px;
+        display: inline-block;
+        color: #000;
+        background-color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .prog a.botaoprog:hover{
+        background-color:#2e4d53;
+        color: #fff;
+    }
+
+    footer {
+        margin-top: 3%;
+        height: auto;
+        padding: 10px 40px;
+        background: linear-gradient(135deg, #1c1c1c, #0d0d0d);
+        color:#fff;
+        font-size: 13px; 
+        display: flex; 
+        justify-content: center;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+
+    footer .row {
+        margin: 0; 
+    }
+
+    footer .row p3 {
+        display: flex;
+        flex-direction:row; 
+        align-items: flex-start;
+        margin: 5px 0;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="cabecalho">
+            <ul>
+                <li><a href="./index.html">Inicío</a></li>
+                <li><a href="./programacao.html" class="active">Programação</a></li>
+                <li><a href="./palestrantes.html">Palestrantes</a></li>
+                <li><a href="./inscricao.html">Inscrição</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <div class="tabela3">
+            <table border="1">
+                <thead>
+                    <tr> <th colspan="4" style="text-align: center;"> Programação 20/10/2024 <br>Educação Personalizada: A Revolução dos Dados e Tecnologias Emergentes.</th></tr>
+                            <tr>
+                                <th>Hora</th>
+                                <th>Programação</th>
+                                <th>Descrição</th>
+                                <th>Palestrante / Instrutor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>09h00 - 10h30</td>
+                                <td>Educação Personalizada e o Papel dos Dados</td>
+                                <td>Como o uso de dados pode moldar o futuro da educação, criando trilhas de aprendizado personalizadas para cada aluno.</td>
+                                <td>Dr. Lucas Silva - Especialista em Big Data Educacional</td>
+                            </tr>
+                    
+                            <tr>
+                                <td>10h30 - 11h00</td>
+                                <td colspan="3" style="text-align: center;">Pausa para Café</td>
+                            </tr>
+                    
+                            <tr>
+                                <td>11h00 - 12h30</td>
+                                <td>O Uso de Inteligência Artificial para Personalizar o Ensino</td>
+                                <td>Exploração de como a IA pode analisar dados dos alunos para adaptar currículos e metodologias de ensino em tempo real.</td>
+                                <td>Prof. Mariana Costa - Cientista de Dados em Educação</td>
+                            </tr>
+                    
+                            <tr>
+                                <td>12h30 - 14h00</td>
+                                <td colspan="3" style="text-align: center;">Almoço</td>
+                            </tr>
+                    
+                            <tr>
+                                <td>14h00 - 15h30</td>
+                                <td>Realidade Aumentada (AR) como Ferramenta de Aprendizagem Personalizada</td>
+                                <td>Utilização de AR para adaptar experiências de ensino, proporcionando um aprendizado mais dinâmico e individualizado.</td>
+                                <td>Dr. Tiago Mota - Especialista em Tecnologias Imersivas</td>
+                            </tr>
+                    
+                            <tr>
+                                <td>15h30 - 16h00</td>
+                                <td colspan="3" style="text-align: center;">Intervalo</td>
+                            </tr>
+                    
+                            <tr>
+                                <td>16h00 - 17h30</td>
+                                <td>Plataformas Adaptativas: O Futuro da Educação Personalizada</td>
+                                <td>Discussão sobre plataformas que se adaptam automaticamente ao estilo de aprendizado de cada aluno, fornecendo feedbacks em tempo real.</td>
+                                <td>Luciana Almeida - CEO da EdTech Solutions</td>
+                            </tr>
+                    
+                            <tr>
+                                <td>17h30 - 18h30</td>
+                                <td>Mesa Redonda: O Futuro da Educação com o Uso de Tecnologias Emergentes</td>
+                                <td>Palestrantes discutem as tendências e desafios da personalização do ensino com tecnologias emergentes, como IA e VR.</td>
+                                <td>Dr. Lucas Silva <br> Prof. Mariana Costa<br> Dr. Tiago Mota<br> Luciana Almeida</td>
+                            </tr>
+                        </tbody>
+                    </table>                    
+        </div>
+        <br>
+        <div class="prog">
+        <a href="programacao.html" class="botaoprog">Voltar a tela anterior</a>
+    </div>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="p3">
+        <p3>&copy; 2024 TechLearning. Todos os direitos reservados.</p3>
+    </div>
+    </div>
+    </footer>
+</body>
+</html>
