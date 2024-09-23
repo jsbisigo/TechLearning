@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palestrantes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+        h1{
+            color: #ffae00;;
+            text-align: justify;
+            margin: 6%;
+            margin-top: 1%;
+            margin-bottom: 0;
+        }
+        .definicao_img {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .definicao_img img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        p{
+            margin: 80px ; 
+            margin-top: 10px;
+            padding: 20px;
+            text-align:justify;
+            font-size: 16px;
+            color: #fff;
+            background-color: #424242;
+            border-radius: 10px;
+        }
+        .pi{
+            margin: 5%;
+            margin-top: -3%;
+            margin-bottom: 2%;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+        }
+        .inscricao{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .inscricao a.botao{
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 15px;
+            display: inline-block;
+            color: #000;
+            background-color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .inscricao a.botao:hover{
+            background-color:#ffae00;
+            color: #000000;
+        }
+
+        footer {
+            margin-top: 3%;
+            height: auto;
+            padding: 10px 40px;
+            background: linear-gradient(135deg, #1c1c1c, #0d0d0d);
+            color:#fff;
+            font-size: 13px; 
+            display: flex; 
+            justify-content: center;
+            flex-direction: column; 
+            align-items: center;
+        }
+
+
+        footer .row {
+            margin: 0; 
+        }
+
+        footer .row p3 {
+            display: flex;
+            flex-direction:row; 
+            align-items: flex-start;
+            margin: 5px 0;
+        }
+        
+</style>
+<body>
+    <header>
+        <nav class="cabecalho">
+            <ul>
+                <li><a href="./index.html">Inicío</a></li>
+                <li><a href="./programacao.html">Programação</a></li>
+                <li><a href="./palestrantes.html">Palestrantes</a></li>
+                <li><a href="./inscricao.html">Inscrição</a></li>
+                <li><a href="./contato.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Mapa Local:</h1>
+        <div class="definicao_img">
+        <img src="mapa_prog.png" class="image" >
+    </div>
+</div>
+   <p> <strong style="color: #ffae00;">Descrição do Local:</strong>
+    <br><br> Entrada Principal (parte inferior): A entrada principal está localizada na parte inferior central do mapa, permitindo que os participantes acessem diretamente o local do evento.
+   <br><br> Área de Exposição (centro do mapa): No centro há uma grande área de exposição, com diversos stands e expositores dispostos de forma organizada. Esta é a zona onde as empresas e startups provavelmente mostrarão suas soluções tecnológicas, produtos e inovações.
+   <br><br>Auditórios (laterais esquerda e direita): Nas laterais direita e esquerda, há auditórios para palestras e keynotes. Eles são acessíveis por meio de corredores largos, com áreas de espera próximas.
+   <br><br>Espaço para Workshops (canto superior esquerdo): No canto superior esquerdo, você encontrará uma área destinada a workshops práticos, com mesas e estações preparadas para sessões de aprendizado mais interativas.
+   <br><br>Lounge de Networking (canto superior direito): No canto superior direito, há uma área de networking, com sofás e espaços confortáveis para os participantes se encontrarem e discutirem negócios ou colaborações.
+   <br><br>Área de Alimentação e Descanso (lado esquerdo, próximo ao centro): Próximo à área de exposição, há uma praça de alimentação e uma área de descanso, oferecendo assentos confortáveis e opções de comida para os participantes recarregarem as energias.
+   <br><br>Estacionamento e Infraestrutura Externa: Próximidades que indicam espaços para estacionamento e infraestruturas externas, o que pode sugerir uma área fácil de acesso para quem chega de carro ou transporte. Havendo área de check-in ou um ponto de coleta para kits de boas-vindas perto da entrada principal.
+   <br><br>Sinalização e Pontos de Informação: Pontos de informação espalhados pelo local, mapas físicos, informações sobre palestras ou assistência técnica.    
+</p>
+</div>
+<div class="inscricao">
+<div class="pi">
+<pi>Navegue pelo mapa acima para descobrir onde cada segmento do nosso evento irá acontecer, desde workshops até zonas de exposição. Após explorar, utilize o botão abaixo para se inscrever e garantir seu lugar no TechLearning. Estamos ansiosos para vê-lo conosco e exploremos o futuro da tecnologia juntos!</pi>
+</div>
+<a href="inscricao.html" class="botao">Inscrever-se</a>
+</div>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="p3">
+        <p3>&copy; 2024 TechLearning. Todos os direitos reservados.</p3>
+    </div>
+    </div>
+    </footer>
+</body>
+</html>
